@@ -1,0 +1,3 @@
+<application>
+  <description>Expose a configurable llms.txt file at /llms.txt for your Enonic XP site.</description>
+</application>

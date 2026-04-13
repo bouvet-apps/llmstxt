@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <form>
+    <input name="llmsText" type="TextArea">
+      <label i18n="llmsText.label">llms.txt content</label>
+      <occurrences minimum="0" maximum="1"/>
+      <help-text i18n="llmsText.help-text">Paste the exact text that should be returned from /llms.txt on this site.</help-text>
+    </input>
+  </form>
+  <mappings>
+    <mapping controller="/services/llmstxt/llmstxt.js" order="10">
+      <pattern>/llms.txt</pattern>
+    </mapping>
+  </mappings>
+</site>

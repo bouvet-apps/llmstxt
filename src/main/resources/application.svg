@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" rx="20" fill="#FF6400"/>
+    <path d="M28 20H60L74 34V80H28Z" fill="#FFFFFF"/>
+    <path d="M60 20V34H74" fill="#FFD9C2"/>
+    <path d="M60 20L74 34H60Z" fill="#FFD9C2"/>
+    <rect x="36" y="42" width="30" height="4" rx="2" fill="#FF6400"/>
+    <rect x="36" y="50" width="24" height="4" rx="2" fill="#FF6400"/>
+    <rect x="36" y="58" width="22" height="4" rx="2" fill="#FF6400"/>
+    <text x="50" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#FF6400">LLMS</text>
+</svg>
