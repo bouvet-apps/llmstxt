@@ -1,6 +1,6 @@
 plugins {
-    id 'com.enonic.xp.app' version '2.0.0'
-    id 'maven'
+    id 'com.enonic.xp.app' version '3.6.2'
+    id 'maven-publish'
 }
 
 app {
@@ -12,17 +12,17 @@ app {
 }
 
 dependencies {
-    compile "com.enonic.xp:script-api:${xpVersion}"
+    implementation "com.enonic.xp:script-api:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
 }
 
 repositories {
     mavenLocal()
-    jcenter()
+    mavenCentral()
     xp.enonicRepo()
 }
 
 wrapper {
-    gradleVersion = '5.6'
+    gradleVersion = '8.14.4'
     distributionType = Wrapper.DistributionType.BIN
 }

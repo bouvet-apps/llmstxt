@@ -89,3 +89,6 @@ crashlytics-build.properties
 
 ### VS Code ###
 .vscode/
+
+### Enonic XP ###
+/.enonic
