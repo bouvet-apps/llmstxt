@@ -11,6 +11,18 @@ app {
     systemVersion = "${xpVersion}"
 }
 
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = "${group}"
+            artifactId = "${projectName}"
+            version = "${version}"
+
+            from components.java
+        }
+    }
+}
+
 dependencies {
     implementation "com.enonic.xp:script-api:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
