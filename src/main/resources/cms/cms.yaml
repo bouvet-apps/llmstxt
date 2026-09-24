@@ -1,0 +1,13 @@
+kind: "CMS"
+form:
+  - type: "TextArea"
+    name: "llmsText"
+    label:
+      text: "llms.txt content"
+      i18n: "llmsText.label"
+    helpText:
+      text: "Paste the exact text that should be returned from /llms.txt on this site."
+      i18n: "llmsText.help-text"
+    occurrences:
+      min: 0
+      max: 1
