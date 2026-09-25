@@ -1,0 +1,5 @@
+kind: "Site"
+mappings:
+  - controller: "/services/llmstxt/llmstxt.js"
+    order: 10
+    pattern: "/llms.txt"
