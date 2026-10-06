@@ -1,0 +1,5 @@
+kind: "Application"
+title: "llms.txt"
+description: "Expose a configurable llms.txt file at /llms.txt for your Enonic XP site."
+vendorName: "Bouvet Norge AS"
+vendorUrl: "https://www.bouvet.no"
