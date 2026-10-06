@@ -1,14 +1,6 @@
 plugins {
-    id 'com.enonic.xp.app' version '3.6.2'
+    id 'com.enonic.xp.app'
     id 'maven-publish'
-}
-
-app {
-    name = "${appName}"
-    displayName = "${appDisplayName}"
-    vendorName = "${vendorName}"
-    vendorUrl = "${vendorUrl}"
-    systemVersion = "${xpVersion}"
 }
 
 publishing {
@@ -24,8 +16,8 @@ publishing {
 }
 
 dependencies {
-    implementation "com.enonic.xp:script-api:${xpVersion}"
-    include "com.enonic.xp:lib-portal:${xpVersion}"
+    implementation xplibs.api.script
+    include xplibs.portal
 }
 
 repositories {
@@ -35,6 +27,6 @@ repositories {
 }
 
 wrapper {
-    gradleVersion = '8.14.4'
+    gradleVersion = '9.5.0'
     distributionType = Wrapper.DistributionType.BIN
 }
